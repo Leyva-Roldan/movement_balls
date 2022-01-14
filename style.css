@@ -1,0 +1,36 @@
+.ball_1 {
+    width: 70px;
+    height: 100px;
+    margin: 50px;
+    left: 20%;
+    position: sticky;
+    border-radius: 50%;
+    background: linear-gradient(35deg, blue,pink);
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.ball_2 {
+    background: linear-gradient(35deg, blue,pink);
+    width: 70px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 50%;
+    position: sticky;
+    left: 70%;
+    animation-name: second;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes fade { 
+    50% {
+    left: 60%;
+    opacity: 0.1;
+    }
+}
+@keyframes second {
+    50% {
+        left: 30%;
+        opacity: 0.1;
+    }
+}
